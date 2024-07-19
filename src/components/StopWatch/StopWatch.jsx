@@ -29,8 +29,9 @@ function StopWatch() {
 
   return (
     <div className="App">
-      <h1>TIME TRICKSTER</h1>
+      
       <div className="card">
+       <h1>TIME TRICKSTER</h1>
         <h2>Loki’s Ticker</h2>
         <div className="time">
           <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</span>

@@ -2,14 +2,13 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 2rem;
     justify-content: center;
     height: 100vh;
     text-align: center;
     width: 100%;
     background-size: cover;
     background-image: url('/public/image.jpg');
-    background-color: aqua;
+    background-color: rgba(0, 255, 55, 0.758);
     color: rgb(255, 255, 255);
     font-family: "Times New Roman",cursive;
     
@@ -48,11 +47,16 @@
   
   .card {
     background: rgba(17, 75, 22, 0.614);
-    padding: 4em;
+    margin-bottom: 1rem;
+    padding: 3em;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    margin-left: 45rem;
+    font-size: 15px;
   }
+
+  
   
   .time {
     font-size: 5rem;
